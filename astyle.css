@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .sky {
+    height: 100%;
+    background: linear-gradient(to top, #0b486b, #f56217);
+    position: relative;
+  }
+  
+  .sun {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #ffdd00, #ff6600);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  
+  .ocean {
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+    background: #001f3f;
+  }
+  
